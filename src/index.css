@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+.bg-image {
+  background: url(./assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.bg-image-2 {
+  background: url(./assets/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
